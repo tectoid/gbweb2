@@ -1,0 +1,42 @@
+.controlPanel button{
+    cursor: pointer;
+    float:left;
+    height:34px;
+    width:34px;
+    margin: 2px;
+    background-size: 34px 34px;
+    background-repeat: no-repeat;
+}
+body{
+  height:100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  }
+.controlPanel
+{
+    position:absolute;
+    top:15px;
+    left:44px;
+    width:400px;
+    padding:2px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4), 0px -1px 0 rgba(0, 0, 0, 0.04);
+    z-index:2;
+}
+ 
+ .zoomBox{
+    background-image: url("zoomBox.jpg");
+ }
+ 
+  .zoomOut{
+    background-image: url("zoomOut.jpg");
+ }
+   .dragPan{
+    background-image: url("dragPan.jpg");
+ }
+ 
+ 
+ 
+ 
+ 
+ 
